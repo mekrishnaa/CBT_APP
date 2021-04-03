@@ -1,0 +1,138 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    width:100%;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+}
+
+/* ************************ utility ***************************** */
+.no_mp{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+ul{
+    list-style: none;
+}
+.active{
+    color:grey;
+    /* background-color: bisque; */
+}
+
+header{
+    background:url('/pictures/head_img.jpg') no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width:100%;
+    height:10rem;
+    margin:0;
+    padding:0;
+    /* background-color: aqua; */
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.head{
+  
+    text-align: center;
+    color:red;
+    font-size: large;
+    padding-top: 5px;
+    
+}
+/* .head-content{
+    margin-top: 5px;
+} */
+
+.nav-container{
+    margin-top:5rem;
+}
+
+.nav-bar{
+    display:flex;
+    list-style: none;
+    width:100%;
+    position:relative;
+
+
+}
+
+
+
+.nav-bar>li {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+    /* display: inline-block; */
+    
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    font-size:25px;
+
+}
+
+/* .nav-bar li a:hover{
+    font-size: 30px;
+} */
+
+main{
+
+    max-width: 100%;
+    width:200px;
+    background-color: aquamarine;
+    /* align-items: center; */
+    align-content: center;
+    margin:auto;
+    padding:10px 5px;
+    border-radius: 20px;
+    border: grey 1px solid;
+    display: block;
+}
+.main-container .top{
+    font-family: sans-serif;
+    color:grey;
+    text-align: center;
+    text-decoration: underline;
+}
+.content-menu {
+    margin:atuo;
+    font-size: 30px;
+    height:80px;
+  
+
+}
+.content-menu li{
+    height:60%;
+}
+.content-menu :nth-last-child(1){
+    margin-top:5px;
+}
+/* .content-menu li a:hover{
+    font-size: 32px;
+} */
+
+footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+    height:50px;
+    width:100%;
+    background-color: #d6f5d7;
+    align-content: center;
+  
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+.body{
+    margin:5px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.main-container{
+    
+    align-content: center;
+    display:block;
+    position: relative;
+}
+.top{
+    margin: 15px 0px;
+    margin-bottom: 25px;
+}
+.top h1{
+    align-content: center;
+    margin:auto;
+    color:blue;
+    
+}
+.container-content{
+    margin:auto;
+    border: 1px blue solid;
+    max-width: 100%;
+    width: 300px;
+    align-content: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+ 
+}
+
+.container-content-menu>li{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.container-content-menu>li a:hover{
+    color:grey;
+}

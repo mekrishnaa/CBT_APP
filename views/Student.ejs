@@ -1,0 +1,18 @@
+<%- include('layouts/Header.ejs')%>
+
+<body>
+    <div class="main-container">
+        <div class="top">
+            <h1 class='no_mp'>Welcome <%= name %></h1>    
+        </div>
+        <div class="container-content">
+            <ul class='container-content-menu'>
+                <li><a href='/admin_login'>Download Question Paper</a></li>
+                <li><a href='/student_login'>Upload Answer Sheet</a></li>
+                <li><a href='/student_login'>Check Result</a></li>
+            </ul>
+        </div>
+
+    </div> 
+</body>
+<%- include('layouts/footer.ejs')%>
